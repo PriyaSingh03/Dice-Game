@@ -1,0 +1,126 @@
+
+.background {
+
+}
+
+
+.container {
+/*   width: 70%; */
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+	 
+  text-align: center;
+  display: inline-block!important;
+
+}
+
+body {
+	background-image:url(background.png);
+	text-align:center;
+	/*background-color:#C0C0C0;*/
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Berlin Sans FB', cursive;
+  text-shadow: 4px 0 #6AFF8F;
+ font-size: 5rem;
+  color:#004A25;
+}
+
+p {
+  font-size: 2rem;
+  color: #004A25;
+  font-family: 'Calibri', cursive;
+}
+
+img {
+	text-shadow: 7px 0 #000;
+  width: 80%;
+}
+
+.players:hover{
+	
+	background-color: #024a2657;
+	
+}
+
+
+.players{
+	border: #004a2526;
+	background-color: #adf9ad17;
+	padding: 1% 1% 1%;
+	border-radius:5%;
+	display: inline-block;
+	height: 20%;
+	font-size: 1rem;
+	taxt-align: center;
+}
+
+.addNames{
+  text-align: center;
+  margin-bottom: 1.5%;
+}
+
+
+::placeholder {
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #000;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #000;
+}
+
+
+
+.role{
+	border-radius:13%;
+	color:#05a52e;
+	background-color: #024a2657;
+	padding: 0% 0% 0%;
+	font-family: 'Century Gothic' ;
+	font-size: 2rem;
+	border:none;
+	width: 10%;
+	height:10%;
+}
+
+.back{
+	border:none;
+	background-color:#004812;
+	color:#9DFFB6;
+	font-size: 2rem;
+	float:left;
+}
+
+.back:hover{
+	color:#00641A;
+	background-color:#28FF5F;
+
+}
+
+
+
+.role:hover{
+	background-color: #024a2629;
+	color:#05a52e;
+/* 	width: 25%;
+	height:15%; */
+	
+}
+
+footer {
+  margin-top: 5%;
+  color: #000;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
